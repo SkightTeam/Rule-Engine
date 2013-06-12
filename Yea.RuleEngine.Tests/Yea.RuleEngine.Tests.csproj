@@ -75,6 +75,7 @@
     <Compile Include="Machine.Specifications.AutoMocking\Specification.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
     <Compile Include="IntegrationTests.cs" />
+    <Compile Include="ReviewbyHao\求源\Account.cs" />
     <Compile Include="ReviewbyHao\求源\AccountSpecs.cs" />
     <Compile Include="RuleBaseTests.cs" />
     <Compile Include="RuleDefinitionTests.cs" />
