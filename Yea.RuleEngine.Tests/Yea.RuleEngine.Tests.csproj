@@ -76,7 +76,9 @@
     <Compile Include="Properties\AssemblyInfo.cs" />
     <Compile Include="IntegrationTests.cs" />
     <Compile Include="ReviewbyHao\求源\Account.cs" />
-    <Compile Include="ReviewbyHao\求源\AccountSpecs.cs" />
+    <Compile Include="ReviewbyHao\求源\AccountBalanceSpecs.cs" />
+    <Compile Include="ReviewbyHao\求源\AccountDiscountSpecs.cs" />
+    <Compile Include="ReviewbyHao\求源\AccountGradeSpecs.cs" />
     <Compile Include="RuleBaseTests.cs" />
     <Compile Include="RuleDefinitionTests.cs" />
     <Compile Include="RuleEngineTests.cs" />
