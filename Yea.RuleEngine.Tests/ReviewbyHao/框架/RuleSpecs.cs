@@ -33,5 +33,12 @@ namespace Yea.RuleEngine.Tests.ReviewbyHao.求源.框架
 
     }
 
+    public class when_condition_does_not_meet_1 : For_a_rule_against_mock {
+        private Establish context = () => mock = new Mock { Condition = 2 };
+        private Because of = () => subject.apply(mock);
+        private It result_should_set_to_1 = () => mock.Result.ShouldNotEqual("1");
+        
+    }
+
 
 }
