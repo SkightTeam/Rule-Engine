@@ -4,18 +4,8 @@ namespace Yea.RuleEngine.Tests.ReviewbyHao.ว๓ิด
     {
         public int Balance { get; private set; }
         public int ChargeAmount { get; set; }
-        public virtual Grade Grade
-        {
-            get
-            {
-                if(ChargeAmount<100)
-                    return Grade.Regular;
-                if(ChargeAmount>=100)
-                    return Grade.Silver;
-
-                return Grade.Regular;
-            }
-        }
+        public virtual Grade Grade { get; set; }
+        
 
         public int Discount
         {

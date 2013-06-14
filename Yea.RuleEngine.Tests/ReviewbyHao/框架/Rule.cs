@@ -5,7 +5,7 @@ namespace Yea.RuleEngine.Tests.ReviewbyHao.求源.框架
     public class Rule<T>
     {
         public static Rule<T> New()
-        {
+        {                                   
             return new Rule<T>();
         }
 
@@ -29,4 +29,6 @@ namespace Yea.RuleEngine.Tests.ReviewbyHao.求源.框架
                 action(target);
         }
     }
+
+   
 }
