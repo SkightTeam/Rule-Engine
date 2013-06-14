@@ -7,16 +7,18 @@ namespace Yea.RuleEngine.Tests.ReviewbyHao.求源.框架
 
         private Establish context = () =>
         {
-            subject = Rules<Account>.Create()
+            subject = Rules<Account>
                 .when(x => x.ChargeAmount <100).then(x => x.Grade = Grade.Regular)
                 .when(x=>x.ChargeAmount >=100 && x.ChargeAmount<1000).then(x=>x.Grade=Grade.Silver)
-                .when(x=>x.ChargeAmount>=1000).then(x=>x.Grade=Grade.Gold);
+                .when(x=>x.ChargeAmount>=1000).then(x=>x.Grade=Grade.Gold)
+                .done();
+            account=new Account();
         };
 
         private Because of = () => subject.apply(account);
         protected static Rules<Account> subject;
         protected static Account account;
-   _}
+   }
 
     public class When_charge_less_100:Account_with_memebership_rules
     {

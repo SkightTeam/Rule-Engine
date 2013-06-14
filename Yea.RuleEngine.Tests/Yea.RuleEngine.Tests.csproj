@@ -76,6 +76,8 @@
     <Compile Include="Properties\AssemblyInfo.cs" />
     <Compile Include="IntegrationTests.cs" />
     <Compile Include="ReviewbyHao\Account.cs" />
+    <Compile Include="ReviewbyHao\框架\CompositeRuleSpecs.cs" />
+    <Compile Include="ReviewbyHao\框架\Rules.cs" />
     <Compile Include="ReviewbyHao\框架\RuleSpecs.cs" />
     <Compile Include="ReviewbyHao\框架\Rule.cs" />
     <Compile Include="ReviewbyHao\求源\AccountBalanceSpecs.cs" />
