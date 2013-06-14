@@ -75,10 +75,12 @@
     <Compile Include="Machine.Specifications.AutoMocking\Specification.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
     <Compile Include="IntegrationTests.cs" />
-    <Compile Include="ReviewbyHao\求源\Account.cs" />
+    <Compile Include="ReviewbyHao\Account.cs" />
+    <Compile Include="ReviewbyHao\框架\RuleSpecs.cs" />
+    <Compile Include="ReviewbyHao\框架\Rule.cs" />
     <Compile Include="ReviewbyHao\求源\AccountBalanceSpecs.cs" />
-    <Compile Include="ReviewbyHao\求源\AccountDiscountSpecs.cs" />
-    <Compile Include="ReviewbyHao\求源\AccountGradeSpecs.cs" />
+    <Compile Include="ReviewbyHao\进阶\AccountDiscountSpecs.cs" />
+    <Compile Include="ReviewbyHao\进阶\AccountGradeSpecs.cs" />
     <Compile Include="RuleBaseTests.cs" />
     <Compile Include="RuleDefinitionTests.cs" />
     <Compile Include="RuleEngineTests.cs" />
@@ -103,6 +105,7 @@
     <Content Include="Rhino Mocks\Rhino.Mocks.pdb" />
     <Content Include="Rhino Mocks\Rhino.Mocks.xml" />
   </ItemGroup>
+  <ItemGroup />
   <Choose>
     <When Condition="'$(VisualStudioVersion)' == '10.0' And '$(IsCodedUITest)' == 'True'">
       <ItemGroup>
